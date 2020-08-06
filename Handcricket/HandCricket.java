@@ -51,7 +51,6 @@ public class HandCricket {
 	 * @return Innings
 	 */
 	private static Innings PlayInnings(int target) {
-		Scanner input = new Scanner(System.in);
 		Innings currentInnings = new Innings(player1, player2);
 		int currentScore = 0;
 		currentInnings.setBalls(10);
